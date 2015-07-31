@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCC998BE1B6B5174000C2F79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC998BD1B6B5174000C2F79 /* main.m */; };
+		DCC998C11B6B5174000C2F79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC998C01B6B5174000C2F79 /* AppDelegate.m */; };
+		DCC998C41B6B5174000C2F79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC998C31B6B5174000C2F79 /* ViewController.m */; };
+		DCC998C71B6B5174000C2F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC998C51B6B5174000C2F79 /* Main.storyboard */; };
+		DCC998C91B6B5174000C2F79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC998C81B6B5174000C2F79 /* Images.xcassets */; };
+		DCC998CC1B6B5174000C2F79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCC998CA1B6B5174000C2F79 /* LaunchScreen.xib */; };
+		DCC998D81B6B5174000C2F79 /* DownloadFontOnlineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC998D71B6B5174000C2F79 /* DownloadFontOnlineTests.m */; };
+		DCC998E31B6B5592000C2F79 /* FontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC998E21B6B5592000C2F79 /* FontManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCC998D21B6B5174000C2F79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC998B01B6B5174000C2F79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC998B71B6B5174000C2F79;
+			remoteInfo = DownloadFontOnline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCC998B81B6B5174000C2F79 /* DownloadFontOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadFontOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC998BC1B6B5174000C2F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC998BD1B6B5174000C2F79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCC998BF1B6B5174000C2F79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCC998C01B6B5174000C2F79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCC998C21B6B5174000C2F79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCC998C31B6B5174000C2F79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCC998C61B6B5174000C2F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCC998C81B6B5174000C2F79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCC998CB1B6B5174000C2F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DCC998D11B6B5174000C2F79 /* DownloadFontOnlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloadFontOnlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC998D61B6B5174000C2F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC998D71B6B5174000C2F79 /* DownloadFontOnlineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadFontOnlineTests.m; sourceTree = "<group>"; };
+		DCC998E11B6B5592000C2F79 /* FontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontManager.h; sourceTree = "<group>"; };
+		DCC998E21B6B5592000C2F79 /* FontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC998B51B6B5174000C2F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC998CE1B6B5174000C2F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCC998AF1B6B5174000C2F79 = {
+			isa = PBXGroup;
+			children = (
+				DCC998BA1B6B5174000C2F79 /* DownloadFontOnline */,
+				DCC998D41B6B5174000C2F79 /* DownloadFontOnlineTests */,
+				DCC998B91B6B5174000C2F79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC998B91B6B5174000C2F79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC998B81B6B5174000C2F79 /* DownloadFontOnline.app */,
+				DCC998D11B6B5174000C2F79 /* DownloadFontOnlineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC998BA1B6B5174000C2F79 /* DownloadFontOnline */ = {
+			isa = PBXGroup;
+			children = (
+				DCC998E11B6B5592000C2F79 /* FontManager.h */,
+				DCC998E21B6B5592000C2F79 /* FontManager.m */,
+				DCC998BF1B6B5174000C2F79 /* AppDelegate.h */,
+				DCC998C01B6B5174000C2F79 /* AppDelegate.m */,
+				DCC998C21B6B5174000C2F79 /* ViewController.h */,
+				DCC998C31B6B5174000C2F79 /* ViewController.m */,
+				DCC998C51B6B5174000C2F79 /* Main.storyboard */,
+				DCC998C81B6B5174000C2F79 /* Images.xcassets */,
+				DCC998CA1B6B5174000C2F79 /* LaunchScreen.xib */,
+				DCC998BB1B6B5174000C2F79 /* Supporting Files */,
+			);
+			path = DownloadFontOnline;
+			sourceTree = "<group>";
+		};
+		DCC998BB1B6B5174000C2F79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCC998BC1B6B5174000C2F79 /* Info.plist */,
+				DCC998BD1B6B5174000C2F79 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCC998D41B6B5174000C2F79 /* DownloadFontOnlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC998D71B6B5174000C2F79 /* DownloadFontOnlineTests.m */,
+				DCC998D51B6B5174000C2F79 /* Supporting Files */,
+			);
+			path = DownloadFontOnlineTests;
+			sourceTree = "<group>";
+		};
+		DCC998D51B6B5174000C2F79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCC998D61B6B5174000C2F79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC998B71B6B5174000C2F79 /* DownloadFontOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC998DB1B6B5174000C2F79 /* Build configuration list for PBXNativeTarget "DownloadFontOnline" */;
+			buildPhases = (
+				DCC998B41B6B5174000C2F79 /* Sources */,
+				DCC998B51B6B5174000C2F79 /* Frameworks */,
+				DCC998B61B6B5174000C2F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownloadFontOnline;
+			productName = DownloadFontOnline;
+			productReference = DCC998B81B6B5174000C2F79 /* DownloadFontOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC998D01B6B5174000C2F79 /* DownloadFontOnlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC998DE1B6B5174000C2F79 /* Build configuration list for PBXNativeTarget "DownloadFontOnlineTests" */;
+			buildPhases = (
+				DCC998CD1B6B5174000C2F79 /* Sources */,
+				DCC998CE1B6B5174000C2F79 /* Frameworks */,
+				DCC998CF1B6B5174000C2F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC998D31B6B5174000C2F79 /* PBXTargetDependency */,
+			);
+			name = DownloadFontOnlineTests;
+			productName = DownloadFontOnlineTests;
+			productReference = DCC998D11B6B5174000C2F79 /* DownloadFontOnlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC998B01B6B5174000C2F79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Adinnet;
+				TargetAttributes = {
+					DCC998B71B6B5174000C2F79 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DCC998D01B6B5174000C2F79 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DCC998B71B6B5174000C2F79;
+					};
+				};
+			};
+			buildConfigurationList = DCC998B31B6B5174000C2F79 /* Build configuration list for PBXProject "DownloadFontOnline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC998AF1B6B5174000C2F79;
+			productRefGroup = DCC998B91B6B5174000C2F79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC998B71B6B5174000C2F79 /* DownloadFontOnline */,
+				DCC998D01B6B5174000C2F79 /* DownloadFontOnlineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC998B61B6B5174000C2F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC998C71B6B5174000C2F79 /* Main.storyboard in Resources */,
+				DCC998CC1B6B5174000C2F79 /* LaunchScreen.xib in Resources */,
+				DCC998C91B6B5174000C2F79 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC998CF1B6B5174000C2F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC998B41B6B5174000C2F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC998C41B6B5174000C2F79 /* ViewController.m in Sources */,
+				DCC998C11B6B5174000C2F79 /* AppDelegate.m in Sources */,
+				DCC998E31B6B5592000C2F79 /* FontManager.m in Sources */,
+				DCC998BE1B6B5174000C2F79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC998CD1B6B5174000C2F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC998D81B6B5174000C2F79 /* DownloadFontOnlineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCC998D31B6B5174000C2F79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC998B71B6B5174000C2F79 /* DownloadFontOnline */;
+			targetProxy = DCC998D21B6B5174000C2F79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCC998C51B6B5174000C2F79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC998C61B6B5174000C2F79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC998CA1B6B5174000C2F79 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC998CB1B6B5174000C2F79 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCC998D91B6B5174000C2F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCC998DA1B6B5174000C2F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC998DC1B6B5174000C2F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DownloadFontOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCC998DD1B6B5174000C2F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DownloadFontOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCC998DF1B6B5174000C2F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DownloadFontOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownloadFontOnline.app/DownloadFontOnline";
+			};
+			name = Debug;
+		};
+		DCC998E01B6B5174000C2F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DownloadFontOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownloadFontOnline.app/DownloadFontOnline";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC998B31B6B5174000C2F79 /* Build configuration list for PBXProject "DownloadFontOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC998D91B6B5174000C2F79 /* Debug */,
+				DCC998DA1B6B5174000C2F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC998DB1B6B5174000C2F79 /* Build configuration list for PBXNativeTarget "DownloadFontOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC998DC1B6B5174000C2F79 /* Debug */,
+				DCC998DD1B6B5174000C2F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCC998DE1B6B5174000C2F79 /* Build configuration list for PBXNativeTarget "DownloadFontOnlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC998DF1B6B5174000C2F79 /* Debug */,
+				DCC998E01B6B5174000C2F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC998B01B6B5174000C2F79 /* Project object */;
+}
