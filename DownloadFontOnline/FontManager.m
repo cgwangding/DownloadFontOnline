@@ -93,8 +93,14 @@
             }
                 break;
             case kCTFontDescriptorMatchingDownloading:
+            {
                 NSLog(@"下载进度 %.0f%%",progressValue);
-                progress(progressValue);
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    if (progress) {
+                        progress(progressValue);
+                    }
+                });
+            }
                 break;
             case kCTFontDescriptorMatchingDidFailWithError:
             {
@@ -108,7 +114,12 @@
                 // 设置标志
                 errorDuringDownload = YES;
                 NSLog(@"下载错误: %@", errorMessage);
-                failure(error);
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    if (failure) {
+                        failure(error);
+                    }
+                });
+                
             }
                 break;
             default:

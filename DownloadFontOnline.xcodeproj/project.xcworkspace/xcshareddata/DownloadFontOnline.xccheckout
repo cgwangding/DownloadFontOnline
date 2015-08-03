@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>56898D55-2463-4797-94C1-B23A94250ED0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DownloadFontOnline</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A434F5AA1A4BBD54F745B033B797F1D1A7B7C743</key>
+		<string>https://github.com/cgwangding/DownloadFontOnline.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DownloadFontOnline.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A434F5AA1A4BBD54F745B033B797F1D1A7B7C743</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cgwangding/DownloadFontOnline.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A434F5AA1A4BBD54F745B033B797F1D1A7B7C743</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A434F5AA1A4BBD54F745B033B797F1D1A7B7C743</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DownloadFontOnline</string>
+		</dict>
+	</array>
+</dict>
+</plist>
